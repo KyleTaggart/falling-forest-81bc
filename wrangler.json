@@ -1,0 +1,30 @@
+{
+  "name": "falling-forest-81bc",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "green-resonance-07f2-d1",
+      "database_id": "4238b0b7-6f70-4684-842c-efba02e03b4a"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "falling-forest-81bc-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
